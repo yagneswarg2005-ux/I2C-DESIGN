@@ -1,0 +1,206 @@
+# Synopsys Tool Generated Files
+*.db
+*.ddc
+*.els
+*.hdl
+*.hdl.1
+*.hdl.2
+*.hdl.3
+*.hdl.4
+*.hdl.5
+*.hdl.6
+*.hdl.7
+*.hdl.8
+*.hdl.9
+*.vg
+*.v
+*.syn
+
+# Layout and Physical Design
+*.oa
+*.oa.1
+*.oa.2
+*.oa.3
+*.oa_lib
+*.def
+*.lef
+*.lib
+*.lib.1
+*.lib.2
+*.lib.3
+*.gds
+*.gds.1
+*.gds.2
+*.gds.3
+*.gds2
+*.gds2ii
+*.mag
+*.mag.1
+*.mag.2
+*.mag.3
+
+# Design Compiler Output
+*.dw
+*.dw_lib
+*.svdb
+*.fdb
+*.fdb_lib
+*.uuid
+*.dw_work
+*.dw_work_*
+*.dc_cmd
+*.dc.hier
+
+# IC Compiler II Files
+*.icc
+*.icc_work
+*.icc_work_*
+*.icc_hist
+*.icc_lib
+*.icc_library
+*.ip_filelist
+*.icc_filelist
+
+# Verification Files
+*.evcd
+*.evcd.gz
+*.evdb
+*.evdb.gz
+*.wdb
+*.wdb.gz
+*.fsdb
+*.fsdb.gz
+*.vdb
+*.vdb.gz
+
+# Log Files
+*.log
+*.log.1
+*.log.2
+*.log.3
+*.rpt
+*.rpt.1
+*.rpt.2
+*.rpt.3
+*.elab.log
+*.sim.log
+*.compile.log
+
+# Temporary Files
+*.tmp
+*.tmp_*
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+*.old
+*.old_*
+*.new
+*.new_*
+
+# Simulation Related
+work/
+work_sim/
+work_*
+simulate/
+simulate_*
+*.vpd
+*.vpd.gz
+*.shm
+*.shm.gz
+*.wdb
+*.wdb.gz
+
+# Directory Files
+.dir
+.dir_*
+
+# Mac Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows Files
+Thumbs.db
+desktop.ini
+
+# System Files
+*~
+.~*
+*.swp
+*.swo
+*.swn
+
+# IDE Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.cproject
+.pydevproject
+.settings/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+.tox/
+.coverage
+.pytest_cache/
+
+# Node Files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Git Files
+.git/
+.gitmodules
+
+# Synopsys Specific Directories
+.synopsys/
+synopsys_dcsh.tcl
+synopsys_rc.setup
+synopsys_dcsh_history
+icc2_shell.history
+dc_shell.history
+
+# Cadence Specific
+.cdsinit
+.cdsenv
+cdslck.*
+*.cdsenv
+cadence.log
+cadence.log.1
+cadence.log.2
+
+# Mentor Graphics
+*.ini
+modelsim.ini
+
+# Design Documentation (auto-generated)
+report_*.txt
+timing_*.rpt
+area_*.rpt
+power_*.rpt
+design_plan_*.txt
+
+# Core Dumps
+core
+core.*
+
+# Exclude these exceptions
+!.gitkeep
+!.github/
+!.gitignore
+!docs/
+!scripts/
+!LICENSE
+!README.md
