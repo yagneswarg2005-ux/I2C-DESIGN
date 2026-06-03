@@ -147,7 +147,7 @@ The design is organized in a hierarchical structure with the following key insta
 
 ---
 
-## 📊 Design Flow
+##  Design Flow
 
 ```
 Specification
@@ -233,7 +233,7 @@ I2C-DESIGN/
 
 ---
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 ### Timing Performance
 - **Maximum Frequency**: Supports up to 400 kHz (Fast Mode) and 100 kHz (Standard Mode)
@@ -248,7 +248,7 @@ I2C-DESIGN/
 
 ---
 
-## 🛠 Design Tools Used
+##  Design Tools Used
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -274,7 +274,7 @@ I2C-DESIGN/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Synopsys Cadence IC Compiler II (or equivalent layout tool)
@@ -284,15 +284,17 @@ I2C-DESIGN/
 ### Simulation
 ```bash
 # To run simulation (if testbenches available)
-cd simulations/
+cd rtl_simulations/
 # Use your favorite simulator (VCS, ModelSim, etc.)
+source vcs_command/
 ```
 
 ### Synthesis
 ```bash
 # Run design compiler synthesis
-cd scripts/
+cd DC/
 dc_shell -f synthesis.tcl
+source run_dc.tcl
 ```
 
 ### Place & Routing
@@ -361,7 +363,5 @@ For questions or issues related to this I2C design:
 - Digital Design Best Practices for VLSI Implementation
 
 ---
-
-**Last Updated**: June 2, 2026  
-**Status**: Design Complete & Verified
+ 
 
