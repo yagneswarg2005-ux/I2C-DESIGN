@@ -1,6 +1,6 @@
 # I2C (Inter-Integrated Circuit) Design
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains a comprehensive design and implementation of an **I2C (Inter-Integrated Circuit) interface** developed in **Synopsys** design tools. The I2C protocol is a synchronous, multi-master, multi-slave serial communication protocol widely used in embedded systems and IoT applications for connecting multiple peripheral devices to a microcontroller.
 
@@ -8,7 +8,7 @@ This project showcases the complete design flow from schematic design to physica
 
 ---
 
-## 🎯 Design Specifications
+##  Design Specifications
 
 ### Protocol Specifications
 - **Standard**: I2C (Inter-Integrated Circuit) / TWI (Two-Wire Interface)
@@ -40,12 +40,7 @@ This project showcases the complete design flow from schematic design to physica
 | **Total Cell Area** | 264.06 |
 | **Total Area** | 317.46 |
 
-#### Timing Analysis
-- **Wire Load Model**: Enclosed
-- **Operating Condition**: tt0p78vn40c
-- **Standard Cell Library**: saed32rvt_tt0p78vn40c
-- **Path Type**: Max (critical path analysis)
-- **Max Paths Analyzed**: 1
+ 
 
 **Critical Path Details:**
 | Endpoint | Delay (ns) |
@@ -94,7 +89,7 @@ The I2C design comprises several key functional blocks:
 
 ---
 
-## 📐 Design Implementation Details
+##  Design Implementation Details
 
 ### Technology & Tools
 - **Design Tool**: Synopsys Cadence IC Compiler II
@@ -176,7 +171,7 @@ Final Silicon Layout
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 I2C-DESIGN/
@@ -213,25 +208,25 @@ I2C-DESIGN/
 
 ---
 
-## 🔍 Key Features
+##  Key Features
 
-✅ **Complete I2C Protocol Implementation**
+ **Complete I2C Protocol Implementation**
 - Master and Slave mode support
 - Standard and Fast mode operation
 - Open-drain output drivers
 - Clock stretching support
 
-✅ **Optimized Design**
+ **Optimized Design**
 - Area-efficient layout (317.46 µm² total)
 - Minimal routing congestion
 - Optimized timing paths
 
-✅ **Robust Architecture**
+ **Robust Architecture**
 - Input noise immunity with Schmitt triggers
 - Synchronization logic for clock domains
 - Error detection and handling
 
-✅ **Verification Complete**
+ **Verification Complete**
 - Timing closure achieved
 - DRC/LVS compliance
 - Functional simulation validated
@@ -264,7 +259,7 @@ I2C-DESIGN/
 
 ---
 
-## 📝 Documentation
+##  Documentation
 
 ### Inside This Repository
 - **design_specs.md** - Comprehensive I2C specification details
@@ -309,7 +304,7 @@ icc2_shell -f placement_routing.tcl
 
 ---
 
-## 📋 Design Verification Checklist
+##  Design Verification Checklist
 
 - [x] Schematic Design Complete
 - [x] RTL to Netlist Synthesis
@@ -324,7 +319,7 @@ icc2_shell -f placement_routing.tcl
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! For major changes:
 1. Fork the repository
@@ -335,13 +330,13 @@ Contributions are welcome! For major changes:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Designer**: yagneswarg2005-ux  
 **Design Date**: April 17, 2026  
@@ -349,7 +344,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 📞 Support & Contact
+##  Support & Contact
 
 For questions or issues related to this I2C design:
 - Open an Issue in this repository
@@ -358,7 +353,7 @@ For questions or issues related to this I2C design:
 
 ---
 
-## 🔗 References
+##  References
 
 - I2C Bus Specification Version 2.1 (NXP)
 - 32nm SAED Standard Cell Library Documentation
